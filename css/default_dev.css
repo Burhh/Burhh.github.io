@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFEE;
+	font-size: 12px;
+	overflow: auto;
+}
+address, cite, dfn, em, var, i {
+    font-style: normal;
+}
+.s {
+    margin-left: 0.5em;
+}
+.s2 {
+    margin-left: 1em;
+}
+.s4 {
+    margin-left: 2em;
+}
+.s8 {
+    margin-left: 10em;
+}
+.h {
+    color: #ff2042;
+    font-size: 20px;
+}
+#mainDiv{
+	width: 100%;
+	height: 100%;
+}
+
+#loveHeart {
+	float: left;
+	width:670px;
+	height:625px;
+}
+
+#garden {
+	width: 100%;
+	height: 100%;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#words {
+	font-family: "sans-serif";
+	width: 500px;
+	font-size: 24px;
+	color:#666;
+}
+
+#messages{
+	display: none;
+}
+
+#elapseClock .digit{
+	font-family: "digit";
+	font-size: 36px;
+}
+
+#loveu{
+	padding: 5px;
+	font-size: 22px;
+	margin-top: 80px;
+	margin-right: 120px;
+	text-align: right;
+	display: none;
+}
+
+#loveu .signature{
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#clickSound{
+	display:none;
+}
+
+#code {
+	float: left;
+	width: 440px;
+	height: 500px;
+	color: #6cb9c6;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+	font-size: 12px;
+    white-space: pre-line;
+}
+
+i.str{
+	color: #ffc6f3;
+}
+
+i.key{
+	color: #CC7832;
+	font-weight:bold;
+}
+
+i.co{
+	color: #ff7182;
+    font-style: italic;
+}
+i.var {
+    color: #814bb2;
+}
+i.op:before, i.op:after {
+    content: " ";
+}
+i.op {
+    color: #ffacd8;
+}
+i.fun {
+    color: #ffbc10;
+}
+#copyright{
+	margin-top: 10px;
+	text-align: center;
+	width:100%;
+	color:#666;
+}
+
+#errorMsg{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 100px;
+	left:0px;
+}
+
+#copyright a{
+	color:#666;
+}
