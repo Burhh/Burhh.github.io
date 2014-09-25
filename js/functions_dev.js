@@ -113,10 +113,6 @@ $(function () {
         $('#messages').fadeIn(3000);
     }
 
-    function adjustCodePosition() {
-        $code.css("margin-top", ($garden.height() - $code.height()) / 2);
-    }
-
     function showLove() {
         $('#loveu').fadeIn(3000);
     }
@@ -174,7 +170,6 @@ $(function () {
         together.setSeconds(0);
         together.setMilliseconds(0);
         //codes
-        adjustCodePosition();
         $code.fadeIn(3000);
         $code.typewriter();
 
