@@ -48,9 +48,9 @@ address, cite, dfn, em, var, i {
 }
 
 #words {
-	font-family: "sans-serif";
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
 	width: 500px;
-	font-size: 24px;
+	font-size: 22px;
 	color:#666;
 }
 
@@ -67,19 +67,17 @@ address, cite, dfn, em, var, i {
 	padding: 5px;
 	font-size: 22px;
 	margin-top: 80px;
-	margin-right: 120px;
+	margin-right: 100px;
 	text-align: right;
 	display: none;
 }
-
+#express {
+    font-style: italic;
+}
 #loveu .signature{
 	margin-top: 10px;
 	font-size: 20px;
 	font-style: italic;
-}
-
-#clickSound{
-	display:none;
 }
 
 #code {
