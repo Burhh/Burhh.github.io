@@ -187,7 +187,6 @@ $(function () {
     }
 
     $('.bgm').bind('canplaythrough', function(e){
-        debugger;
         //init anim
         initAnim();
     });
