@@ -185,9 +185,8 @@ $(function () {
             }, 500);
         })();
     }
-
-    $('.bgm').on('play', function(e){
-        //init anim
-        initAnim();
-    });
+	
+	document.querySelector('.bgm').addEventListener('play', function() {
+		initAnim();
+	})
 });
