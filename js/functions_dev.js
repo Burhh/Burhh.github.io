@@ -190,5 +190,9 @@ $(function () {
 		initAnim();
 	});
 	
+	$('body).one('click', function() {
+		$(.bgm).play();
+	});
+	
 	
 });
