@@ -186,10 +186,9 @@ $(function () {
         })();
     }
 	
-	$('body').on('keyup', function() {
-		$('.bgm').play();
+	$('.bgm').one('play', function() {
 		initAnim();
-	})
+	});
 	
 	
 });
