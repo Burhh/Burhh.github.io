@@ -186,9 +186,10 @@ $(function () {
         })();
     }
 	
-	$('.bgm').on('play', function() {
+	$('body').on('keyup', function() {
+		$('.bgm').play();
 		initAnim();
-	});
+	})
 	
 	
 });
