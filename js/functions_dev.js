@@ -186,7 +186,7 @@ $(function () {
         })();
     }
 
-    $('.bgm').one('canplaythrough', function(e){
+    $('.bgm').one('play', function(e){
         //init anim
         initAnim();
     });
