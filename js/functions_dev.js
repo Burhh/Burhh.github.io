@@ -191,7 +191,7 @@ $(function () {
 	});
 	
 	$('body').one('click', function() {
-		$('.bgm').play();
+		document.querySelector('.bgm').play();
 	});
 	
 	
